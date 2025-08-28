@@ -1,0 +1,47 @@
+AI Interaction Log
+
+Step 1: First Question to AI
+I started by asking AI to make two versions of a shopping list program in Python. I told it about the rules:
+- Only use Week 1–3 concepts.
+- No lists, no dictionaries, no functions, and no files.
+- Use only simple variables like strings and integers.
+
+Step 2: First Answer from AI
+AI gave me code, but it used lists. I knew this was not allowed for my assignment, so I decided not to use it.
+This taught me that I cannot just copy the first answer. I need to carefully check if it matches my teacher’s instructions.
+
+Step 3: Asking Again (Refining My Prompt)
+I asked again more clearly:
+“Please rewrite the shopping list code without using lists, dictionaries, or functions. Use only string variables.”
+
+Step 4: Second Answer from AI
+This time, AI gave me two versions:
+1. A messy beginner version with short variable names and poor formatting.
+2. A clean version with clear variable names, good spacing, and comments.
+
+Both worked correctly, but the style was very different.
+
+Step 5: Testing and Fixing
+I tested the programs in Google Colab:
+- Adding items worked.
+- Viewing items showed them correctly.
+- Removing items worked, but sometimes the item count became negative.
+
+I fixed this by making sure the count only goes down if the item actually exists.
+
+Step 6: My Own Touch
+- I improved some user messages to be more clear and polite.
+- I kept the messy version “bad but working” (on purpose) to match the assignment.
+- I made the clean version neat, easy to read, and commented properly.
+
+Challenges I Faced
+- The hardest part was stopping myself (and AI) from using Python lists, because that is the usual way to solve this problem.
+- Another challenge was creating a messy version that still worked. It felt strange to write “bad” code on purpose.
+
+Reflection
+Using AI helped me a lot, but I learned that:
+- I must guide AI carefully with clear prompts.
+- I should not accept everything AI gives me.
+- Testing the program myself is very important.
+
+In the end, AI gave me ideas, but the decisions, corrections, and final touches were mine. This process made me understand good coding practices better.
